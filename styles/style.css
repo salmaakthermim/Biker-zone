@@ -70,6 +70,19 @@ color: white;
 .banner-image img{
   width: 500px;
 }
+.text{
+   text-align: center;
+}
+.text h5{
+    color: red;
+}
+
+.second-section-image img{
+    /* border: 2px solid red; */
+    margin-left: 90px;
+   
+
+}
 
 
 
@@ -112,5 +125,8 @@ color: white;
     }
     .banner-image{
         width: 400px;
+    }
+    .second-section-image img{
+       margin-top: 60px;
     }
 }
