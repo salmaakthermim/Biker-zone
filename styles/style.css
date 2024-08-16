@@ -83,6 +83,46 @@ color: white;
    
 
 }
+.third-section h1{
+text-align: center;
+margin-top: 50px;
+}
+.image-contain{
+    display: flex;
+   gap: 50px;
+}
+
+.fist-card{
+width: 337px;
+height: 439px;
+/* border: 2px solid tomato; */
+margin-left: 70px;
+}
+.fist-card button{
+width: 120px;
+height: 40px;
+background-color: tomato;
+border: none;
+color: white;
+border-radius: 5px;
+}
+.second-card{
+ width: 337px;
+height: 439px;
+/* border: 2px solid tomato; */
+}
+.second-card button, .thard-card button{
+    width: 120px;
+    height: 40px; 
+    background-color: white;
+    border: 1px solid red;
+    color: red;
+}
+.thard-card{
+    width: 337px;
+    height: 439px;
+    /* border: 2px solid tomato; */
+}
 
 
 
@@ -128,5 +168,11 @@ color: white;
     }
     .second-section-image img{
        margin-top: 60px;
+    }
+    .image-contain{
+        flex-direction: column;
+    }
+    .fist-card, .second-card, .thard-card{
+       margin-left: 30px;
     }
 }
